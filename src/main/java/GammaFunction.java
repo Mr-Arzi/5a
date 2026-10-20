@@ -8,7 +8,7 @@ public class GammaFunction {
             throw new IllegalArgumentException("El valor debe ser >= 1");
         }
         double result = 1;
-        for (int i = 2; i <= intValue; i++) {
+        for (int i = 2; i < intValue; i++) {
             result = result * i;
         }
         gammaValue = result;
